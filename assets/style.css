@@ -1,4 +1,9 @@
-body {	color:#333;	font:300 15px/15px Roboto,Arial,Helvetica;background:url(../images/bg.jpg) right no-repeat fixed #fff; -webkit-font-smoothing:antialiased;}
+body {	
+	color: #333;	
+	font: 300 15px/15px Roboto,Arial,Helvetica;
+	background: url(../images/bg.jpg) right no-repeat fixed #fff;
+	 -webkit-font-smoothing: antialiased;
+}
 
 a{color:#00a9c6; text-decoration:none;}
 a:hover{color:#666;}
@@ -137,8 +142,6 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 	.partners{display: block;float: left;}
 	.partners img{width: 120px;}
-
-
 
 	.about.spacer{padding-left: 2em;padding-right: 2em;}
 	.spacer{padding:2em 0 0 0;}

@@ -8,11 +8,6 @@
     });
     });
 
-
-
-
-
-
 var wow = new WOW(
   {
     boxClass:     'wowload',      // animated element css class (default is wow)
@@ -23,9 +18,6 @@ var wow = new WOW(
   }
 );
 wow.init();
-
-
-
 
 $('.carousel').swipe( {
      swipeLeft: function() {
