@@ -1,9 +1,10 @@
 body {	
-	color: #333;	
+	color: #FFFFFF;	
 	font: 300 15px/15px Roboto,Arial,Helvetica;
 	background: url(../images/bg.jpg) right no-repeat fixed #fff;
 	 -webkit-font-smoothing: antialiased;
 }
+
 
 a{color:#00a9c6; text-decoration:none;}
 a:hover{color:#666;}
@@ -31,14 +32,14 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .btn:hover,.btn:active{color: #fff;}
 .btn-default{color: #ccc;border: 1px solid #aaa;}
 .btn-default:hover,.btn-default:active{background: rgba(0,0,0,0.8);}
-.btn-primary{color: #fff;background:#e89f10;width: 100%;outline: none;}
-.btn-primary:hover,.btn-primary:active,.btn-primary:focus{background:#f3c024;box-shadow: none;}
+.btn-primary{color: #fff;background:#C74343;width: 100%;outline: none;}
+.btn-primary:hover,.btn-primary:active,.btn-primary:focus{background:#C74343;box-shadow: none;}
 
 .topbar {background:url(../images/lines.png);	height:5px;position: fixed;top: 0;width: 100%;z-index: 1000;}
 .navbar-nav > li > a{font-size: 1em;line-height: 3.6em;}
 .navbar-fixed-top{top: 5px;}
 .navbar-inverse{background: #111;}
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{background: none;color: #E89F10;}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{background: none;color: #E81010;}
 
 #head,.carousel{margin-top: 0;}
 
@@ -46,11 +47,10 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 /*about*/
 .about.spacer{padding-left: 4em; padding-right: 4em;padding-bottom: 0;}
-.services ul li{width: 10em;height: 10em;border: 1px solid #ccc;padding: 0;border-radius: 50%;margin: 0 1.25em;line-height: 13.5em;color: #999;}
+.services ul li{width: 10em;height: 10em;border: 1px solid #ccc;padding: 0;border-radius: 50%;margin: 0 1.25em;line-height: 13.5em;color: #E9E0E0;}
 .services ul li span{line-height: 2em;display: inline-block;font-weight: 300;}
 .services ul li span i{font-size: 3em;}
 .services ul li span b{display: block;font-size: 1em;font-weight: 300;}
-
 
 /*testimonials*/
 .partners img{float: left;margin:0 75px 30px 0;}
@@ -58,14 +58,13 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .testimonails img{margin-top: 5px;}
 .testimonails span{color: #888;}
 .testimonails span b{font-weight: 400;}
-.carousel-indicators li{border: 1px solid #f3c024;}
+.carousel-indicators li{border: 1px solid #C74343;}
 .carousel-indicators{bottom: 0;}
 
 /*works*/
 #works{padding-top:6em;}
 #works figcaption a{border:1px solid #fff;margin-top: 1em;display: inline-block;color: #fff;padding: 0 2em;}
 #works figcaption a:hover{text-decoration: none;padding: 0 3em;}
-/*works*/
 
 /*team*/
 .team figure{width: 100%;}
@@ -74,9 +73,8 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .team a i.fa{color: #fff; font-size: 2em;}
 .team a i.fa:hover{color: #E89F10;}
 
-
 .highlight-info{ background:url(../images/lab.jpg) center fixed; background-size: cover; color:#fff;}
-.highlight-info .overlay{background: rgba(232,159,16,0.7);}
+.highlight-info .overlay{background: #C74343;}
 .highlight-info h4{color: #fff;margin:0.5em 0 0 0;}
 /*about us*/
 
@@ -90,9 +88,25 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 
 /*contact*/
-.contactform textarea,.contactform input{width: 100%;padding:1em;border:1px solid #ccc;margin-bottom: 1em;border-radius: 0;outline: none;}
-/*contact*/
+.contactform textarea,.contactform input{width: 100%;padding:1em;border:1px solid #000000;margin-bottom: 1em;border-radius: 0;outline: none;}
 
+/*contact*/
+.contactBox
+{
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	border-style: solid;
+	border-width: medium;
+	border-radius: 25px;
+	border-color: grey;
+	margin: 10px;
+}
+
+.contactContent
+{
+	padding: 20px;
+}
 
 .footer{background-color: #111; color: #fff; font-size: 1em;color: #aaa;}
 .footer a{color: #aaa;margin: 0 1em; }
