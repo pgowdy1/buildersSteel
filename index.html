@@ -296,7 +296,7 @@
             <div class="contactBox">
                 <div class="row contactContent">
                     <div class="card wowload fadeInLeftBig">
-                        <div class=" col-sm-6 col-xs-12 card-block">
+                        <div class="col-sm-6 col-xs-12 card-block">
                             <h4 class="card-title">For All Other Projects</h4>
                             <h6 class="card-subtitle mb-2 text-muted"></h6>
                             <p class="card-text">Office: 816.471.1626<br> Estimating and Sales:<br> Ronald Bruce - bherzberg@builders-steel.com<br>                                Karla King - bneill@builders-steel.com</br>
@@ -320,110 +320,164 @@
     </div>
     <!--Contact Ends-->
 
+    <!--Application Section Starts-->
+    <div id="application">
 
-    <div id="application" class="container spacer">
-        <!-- <h2 class="text-center  wowload fadeInUp">Some of our happy clients</h2>
-        <div class="clearfix">
-            <div class="col-sm-6 partners  wowload fadeInLeft">
-                <img src="images/partners/1.jpg" alt="partners">
-                <img src="images/partners/2.jpg" alt="partners">
-                <img src="images/partners/3.jpg" alt="partners">
-                <img src="images/partners/4.jpg" alt="partners">
-            </div>
-            <div class="col-sm-6">
-
-
-                <div id="carousel-testimonials" class="carousel slide testimonails  wowload fadeInRight" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="item active animated bounceInRight row">
-                            <div class="animated slideInLeft col-xs-2"><img alt="portfolio" src="images/team/1.jpg" width="100" class="img-circle img-responsive"></div>
-                            <div class="col-xs-10">
-                                <p> I must explain to you how all this mistaken idea of denouncing pleasure and praising pain
-                                    was born and I will give you a complete account of the system, and expound the actual
-                                    teachings of the great explorer of the truth, the master-builder of human happiness.
-                                    </p>
-                                <span>Angel Smith - <b>eshop Canada</b></span>
-                            </div>
-                        </div>
-                        <div class="item  animated bounceInRight row">
-                            <div class="animated slideInLeft col-xs-2"><img alt="portfolio" src="images/team/2.jpg" width="100" class="img-circle img-responsive"></div>
-                            <div class="col-xs-10">
-                                <p>No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because
-                                    those who do not know how to pursue pleasure rationally encounter consequences that are
-                                    extremely painful.</p>
-                                <span>John Partic - <b>Crazy Pixel</b></span>
-                            </div>
-                        </div>
-                        <div class="item  animated bounceInRight row">
-                            <div class="animated slideInLeft  col-xs-2"><img alt="portfolio" src="images/team/3.jpg" width="100" class="img-circle img-responsive"></div>
-                            <div class="col-xs-10">
-                                <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled
-                                    and demoralized by the charms of pleasure of the moment, so blinded by desire, that they
-                                    cannot foresee the pain and trouble that are bound to ensue.</p>
-                                <span>Harris David - <b>Jet London</b></span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-testimonials" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-testimonials" data-slide-to="1"></li>
-                        <li data-target="#carousel-testimonials" data-slide-to="2"></li>
-                    </ol>
-                    <!-- Indicators -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 col-xs-6 text-center">
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#application_modal">
+                        Job Application
+                    </button>
                 </div>
-
-
-
-            </div> 
+            </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
 
+        <div class="modal fade" id="application_modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Application Form</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="overlay spacer">
 
-        <!-- team -->
-        <!-- <h3 class="text-center  wowload fadeInUp">Our team</h3>
-<p class="text-center  wowload fadeInLeft">Our creative team that is making everything possible</p>
-<div class="row grid team  wowload fadeInUpBig">	
-	<div class=" col-sm-3 col-xs-6">
-	<figure class="effect-chico">
-        <img src="images/team/8.jpg" alt="img01" class="img-responsive" />
-        <figcaption>
-            <p><b>Barbara Husto</b><br>Senior Designer<br><br><a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a></p>            
-        </figcaption>
-    </figure>
+                            <h2 class="text-center wowload fadeInUp">Job Application</h2>
+                            <div class="row">
+                                <form>
+                                    <div class="form-group col-sm-6 col-xs-12">
+                                        <!-- Full Name -->
+                                        <label for="full_name_id" class="control-label">First Name</label>
+                                        <input type="text" class="form-control required" id="full_name_id" name="full_name" placeholder="First Name">
+                                    </div>
+
+                                    <div class="form-group col-sm-6 col-xs-12">
+                                        <!-- Full Name -->
+                                        <label for="full_name_id" class="control-label">Last Name</label>
+                                        <input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="First Name">
+                                    </div>
+                            </div>
+
+                            <div class="form-group">
+                                <!-- Street 1 -->
+                                <label for="street1_id" class="control-label">Street Address 1</label>
+                                <input type="text" class="form-control" id="street1_id" name="street1" placeholder="Street address, P.O. box, company name, c/o">
+                            </div>
+
+                            <div class="form-group">
+                                <!-- Street 2 -->
+                                <label for="street2_id" class="control-label">Street Address 2</label>
+                                <input type="text" class="form-control" id="street2_id" name="street2" placeholder="Apartment, suite, unit, building, floor, etc.">
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-sm-4 col-xs-12">
+                                    <!-- City-->
+                                    <label for="city_id" class="control-label">City</label>
+                                    <input type="text" class="form-control" id="city_id" name="city" placeholder="City">
+                                </div>
+
+                                <div class="form-group col-sm-4 col-xs-12">
+                                    <!-- State Button -->
+                                    <label for="state_id" class="control-label">State</label>
+                                    <select class="form-control" id="state_id">
+                                        <option value="AL">Alabama</option>
+                                        <option value="AK">Alaska</option>
+                                        <option value="AZ">Arizona</option>
+                                        <option value="AR">Arkansas</option>
+                                        <option value="CA">California</option>
+                                        <option value="CO">Colorado</option>
+                                        <option value="CT">Connecticut</option>
+                                        <option value="DE">Delaware</option>
+                                        <option value="DC">District Of Columbia</option>
+                                        <option value="FL">Florida</option>
+                                        <option value="GA">Georgia</option>
+                                        <option value="HI">Hawaii</option>
+                                        <option value="ID">Idaho</option>
+                                        <option value="IL">Illinois</option>
+                                        <option value="IN">Indiana</option>
+                                        <option value="IA">Iowa</option>
+                                        <option value="KS">Kansas</option>
+                                        <option value="KY">Kentucky</option>
+                                        <option value="LA">Louisiana</option>
+                                        <option value="ME">Maine</option>
+                                        <option value="MD">Maryland</option>
+                                        <option value="MA">Massachusetts</option>
+                                        <option value="MI">Michigan</option>
+                                        <option value="MN">Minnesota</option>
+                                        <option value="MS">Mississippi</option>
+                                        <option value="MO">Missouri</option>
+                                        <option value="MT">Montana</option>
+                                        <option value="NE">Nebraska</option>
+                                        <option value="NV">Nevada</option>
+                                        <option value="NH">New Hampshire</option>
+                                        <option value="NJ">New Jersey</option>
+                                        <option value="NM">New Mexico</option>
+                                        <option value="NY">New York</option>
+                                        <option value="NC">North Carolina</option>
+                                        <option value="ND">North Dakota</option>
+                                        <option value="OH">Ohio</option>
+                                        <option value="OK">Oklahoma</option>
+                                        <option value="OR">Oregon</option>
+                                        <option value="PA">Pennsylvania</option>
+                                        <option value="RI">Rhode Island</option>
+                                        <option value="SC">South Carolina</option>
+                                        <option value="SD">South Dakota</option>
+                                        <option value="TN">Tennessee</option>
+                                        <option value="TX">Texas</option>
+                                        <option value="UT">Utah</option>
+                                        <option value="VT">Vermont</option>
+                                        <option value="VA">Virginia</option>
+                                        <option value="WA">Washington</option>
+                                        <option value="WV">West Virginia</option>
+                                        <option value="WI">Wisconsin</option>
+                                        <option value="WY">Wyoming</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group col-sm-4 col-xs-12">
+                                    <!-- Zip Code-->
+                                    <label for="zip_id" class="control-label">Zip Code</label>
+                                    <input type="text" class="form-control" id="zip_id" name="zip" placeholder="#####">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-sm-4 col-xs-12">
+                                    <label for="resume_upload" class="control-label">Resume</label>
+                                    <input id="resume_upload" name="resume_upload" type="file" class="file">
+                                </div>
+                            </div>
+
+                            </form>
+                        </div>
+                        
+                    </div>
+                    <div class="modal-footer">
+
+                        <div class="row">
+                            <div class="col-sm-4 col-xs-4">
+                                <button type="button" class=" btn btn-primary text-center" data-dismiss="modal">Apply</button>
+                            </div>
+                            <div class="col-sm-4 col-xs-4">
+
+                            </div>
+                            <div class="col-sm-4 col-xs-4">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class=" col-sm-3 col-xs-6">
-	<figure class="effect-chico">
-        <img src="images/team/10.jpg" alt="img01"/>
-        <figcaption>            
-            <p><b>Barbara Husto</b><br>Senior Designer<br><br><a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a></p>            
-        </figcaption>
-    </figure>
-    </div>
-
-    <div class=" col-sm-3 col-xs-6">
-	<figure class="effect-chico">
-        <img src="images/team/12.jpg" alt="img01"/>
-        <figcaption>
-            <p><b>Barbara Husto</b><br>Senior Designer<br><br><a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a></p>          
-        </figcaption>
-    </figure>
-    </div>
-
-    <div class=" col-sm-3 col-xs-6">
-	<figure class="effect-chico">
-        <img src="images/team/17.jpg" alt="img01"/>
-        <figcaption>
-            <p><b>Barbara Husto</b><br>Senior Designer<br><br><a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a></p>
-        </figcaption>
-    </figure>
-    </div>
-
- 
-</div> -->
-        <!-- team -->
-
+    <!--Application Section Ends-->
     </div>
 
 
