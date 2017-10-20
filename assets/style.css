@@ -65,13 +65,22 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 #works{padding-top:6em;}
 #works figcaption a{border:1px solid #fff;margin-top: 1em;display: inline-block;color: #fff;padding: 0 2em;}
 #works figcaption a:hover{text-decoration: none;padding: 0 3em;}
+#myModalLabel
+{
+	color: #C74343;
+	font-weight: bold;
+}
+label[for=resume_upload]
+{
+    color: #C74343;
+}
 
 /*team*/
 .team figure{width: 100%;}
 .team img{width: 100%;}
 .team b{font-size: 1.2em;display: block;}
 .team a i.fa{color: #fff; font-size: 2em;}
-.team a i.fa:hover{color: #E89F10;}
+.team a i.fa:hover{color: #C74343;}
 
 .highlight-info{ background:url(../images/lab.jpg) center fixed; background-size: cover; color:#fff;}
 .highlight-info .overlay{background: #C74343;}
