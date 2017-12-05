@@ -1,10 +1,9 @@
-body {	
-	color: #FFFFFF;	
+
+body {		
 	font: 300 15px/15px Roboto,Arial,Helvetica;
 	background: url(../images/bg.jpg) right no-repeat fixed #fff;
 	 -webkit-font-smoothing: antialiased;
 }
-
 
 a{color:#00a9c6; text-decoration:none;}
 a:hover{color:#666;}
@@ -18,13 +17,22 @@ outline: none !important;
 }
 
 h1,h2,h3,h4{margin: 0;line-height: 1em;}
-h1{font:700 5em Roboto,Arial,Helvetica;margin:0.25em 0;text-transform: uppercase;}
-h2{font:300 2.5em Roboto,Arial,Helvetica;margin-bottom: 1.5em;}
-h3{font:300 2em Roboto,Arial,Helvetica;margin:2em 0 1em 0;}
-h4{font:300 1.5em Roboto,Arial,Helvetica;margin-bottom: 1em;}
+h1{font:700 5em Roboto,Arial,Helvetica;margin:0.25em 0;text-transform: uppercase; color: #fff;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;}
+h2{font:300 2.5em Roboto,Arial,Helvetica;margin-bottom: 1.5em; color: #fff;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;}
+h3{font:300 2em Roboto,Arial,Helvetica;margin:2em 0 1em 0; color: #fff;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;}
+h4{font:300 1.5em Roboto,Arial,Helvetica;margin-bottom: 1em; color: #fff;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;}
 h4 i{margin-right: 0.5em;}
 
-p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
+p {
+	font-size:1em;
+	line-height: 1.7em; 
+	margin-bottom: 1.7em;
+	color: #FFF;
+}
 
 .spacer{padding: 6em 0;}
 
@@ -40,6 +48,9 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .navbar-fixed-top{top: 5px;}
 .navbar-inverse{background: #111;}
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{background: none;color: #E81010;}
+.header-logo {
+	margin-right: 700px
+}
 
 #head,.carousel{margin-top: 0;}
 
@@ -47,10 +58,16 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 /*about*/
 .about.spacer{padding-left: 4em; padding-right: 4em;padding-bottom: 0;}
-.services ul li{width: 10em;height: 10em;border: 1px solid #ccc;padding: 0;border-radius: 50%;margin: 0 1.25em;line-height: 13.5em;color: #E9E0E0;}
+.fa-service{width: 10em;height: 10em;border: 1px solid #ccc;padding: 0;border-radius: 50%;margin: 0 1.25em;line-height: 13.5em;color: #E9E0E0;}
 .services ul li span{line-height: 2em;display: inline-block;font-weight: 300;}
 .services ul li span i{font-size: 3em;}
 .services ul li span b{display: block;font-size: 1em;font-weight: 300;}
+.image-size
+{
+	width: 350px;
+	height: auto;
+	padding: 10px;
+}
 
 /*testimonials*/
 .partners img{float: left;margin:0 75px 30px 0;}
@@ -61,40 +78,31 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .carousel-indicators li{border: 1px solid #C74343;}
 .carousel-indicators{bottom: 0;}
 
+/*services*/
+#services figcaption a{border:1px solid #fff;margin-top: 1em;display: inline-block;color: #fff;padding: 0 2em;}
+#services figcaption a:hover{text-decoration: none;padding: 0 3em;}
+.service-picture {
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
 /*works*/
 #works{padding-top:6em;}
 #works figcaption a{border:1px solid #fff;margin-top: 1em;display: inline-block;color: #fff;padding: 0 2em;}
 #works figcaption a:hover{text-decoration: none;padding: 0 3em;}
-#myModalLabel
-{
-	color: #C74343;
-	font-weight: bold;
-}
-label[for=resume_upload]
-{
-    color: #C74343;
-}
+
 
 /*team*/
-.team figure{width: 100%;}
-.team img{width: 100%;}
+.team figure{width: 60%;}
+.team img{width: 60%;}
 .team b{font-size: 1.2em;display: block;}
 .team a i.fa{color: #fff; font-size: 2em;}
 .team a i.fa:hover{color: #C74343;}
 
-.highlight-info{ background:url(../images/lab.jpg) center fixed; background-size: cover; color:#fff;}
 .highlight-info .overlay{background: #C74343;}
 .highlight-info h4{color: #fff;margin:0.5em 0 0 0;}
 /*about us*/
-
-
-
-
-
-
-
-
-
 
 /*contact*/
 .contactform textarea,.contactform input{width: 100%;padding:1em;border:1px solid #000000;margin-bottom: 1em;border-radius: 0;outline: none;}
@@ -108,7 +116,7 @@ label[for=resume_upload]
 	border-style: solid;
 	border-width: medium;
 	border-radius: 25px;
-	border-color: grey;
+	border-color: white;
 	margin: 10px;
 }
 
@@ -123,6 +131,19 @@ label[for=resume_upload]
 .gototop{position: fixed;bottom: 20px; right: 20px;background: rgba(0,0,0,0.5);padding: 10px;color: #fff;}
 .gototop i{line-height: 0.5em;}
 
+@media (min-width: 1367px) 
+{
+	body {		
+	font: 300 15px/15px Roboto,Arial,Helvetica;
+	background: url(../images/bg.jpg) right no-repeat fixed #fff;
+	background-size: 100%;
+	 -webkit-font-smoothing: antialiased;
+	}
+}
+
+@media (min-width: 1201px) {
+	.container {width: 1500px;} 
+}
 
 @media (max-width: 1200px) {
 	body{font:300 13px/13px Roboto,Arial,Helvetica;}
@@ -131,8 +152,7 @@ label[for=resume_upload]
 	
 	.grid figure h2{font: 700 1.5em Roboto,Arial,Helvetica;}
 	figure.effect-oscar figcaption{padding: 12%;}
-	figure.effect-oscar figcaption::before,figure.effect-chico figcaption::before{top: 20px;right: 20px;bottom: 20px;left: 20px;}
-
+	figure.effect-oscar figcaption::before,figure.effect-chico figcaption::before{top: 20px;right: 20px;bottom: 20px;left: 20px;} 
 	.partners img{margin: 0 25px 25px 0;}
 }
 
@@ -149,7 +169,7 @@ label[for=resume_upload]
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
 	body{font:300 12px/12px Roboto,Arial,Helvetica;}
 	.navbar-nav > li > a {line-height: 1em;}	
 	.navbar-brand{padding: 7px;}
@@ -175,4 +195,13 @@ label[for=resume_upload]
 	.grid.team div{margin: 0;padding: 0;}
 	figure.effect-chico figcaption {padding: 1.5em;}
 	.footer{margin-top: 2em;padding-bottom: 2em;}
+}
+
+@media (max-width: 321px) {
+	.image-size
+	{
+		width: 300px;
+		height: auto;
+		padding: 10px;
+	}
 }
