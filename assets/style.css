@@ -62,11 +62,12 @@ p {
 .services ul li span{line-height: 2em;display: inline-block;font-weight: 300;}
 .services ul li span i{font-size: 3em;}
 .services ul li span b{display: block;font-size: 1em;font-weight: 300;}
-.image-size
+
+.founder-size
 {
-	width: 350px;
-	height: auto;
-	padding: 10px;
+	height:300px; 
+	width: auto;
+	border: solid 2px white	
 }
 
 /*testimonials*/
@@ -85,6 +86,20 @@ p {
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
+}
+
+.image-size
+{
+	width: 350px;
+	height: auto;	
+	border: solid 2px white
+}
+
+.collage-size
+{
+	width: 600px;
+	height: auto;	
+	border: solid 2px white
 }
 
 /*works*/
@@ -170,7 +185,11 @@ p {
 
 
 @media (max-width: 800px) {
-	body{font:300 12px/12px Roboto,Arial,Helvetica;}
+	body
+	{
+		background: url(../images/bg.jpg) right no-repeat #fff;
+		font:300 12px/12px Roboto,Arial,Helvetica;
+	}
 	.navbar-nav > li > a {line-height: 1em;}	
 	.navbar-brand{padding: 7px;}
 	.navbar-brand img{height: 37px;}
@@ -197,8 +216,20 @@ p {
 	.footer{margin-top: 2em;padding-bottom: 2em;}
 }
 
-@media (max-width: 321px) {
+@media (max-width: 415px) {
+	.mobile-margin
+	{
+		margin-top: 35px;
+	}
+
 	.image-size
+	{
+		width: 300px;
+		height: auto;
+		padding: 10px;
+	}
+
+	.collage-size
 	{
 		width: 300px;
 		height: auto;

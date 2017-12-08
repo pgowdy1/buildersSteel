@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110904629-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-110904629-2');
+    </script> s
     <meta charset="UTF-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -41,7 +50,6 @@
             <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="top-nav">
                 <div class="container">
                     <div class="navbar-header">
-                        <!-- images/header/logo_header.PNG -->
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
@@ -87,7 +95,7 @@
     </div>
     <!-- #Header Starts -->
 
-    <div id="home">
+    <div id="home" style="padding-top:45px;">
         <!-- Slider Starts -->
         <div id="myCarousel" class="carousel slide banner-slider animated bounceInDown" data-ride="carousel">
             <div class="carousel-inner">
@@ -135,10 +143,14 @@
     <div id="about" class="container spacer" style="background: #111111; -moz-border-radius: 40px; border-radius: 40px; border: solid 2px white">
         <div class="row">
             <div class="col-md-6 text-center">
-                <img src="images/logos/beamlogo.PNG" alt="">
+                <img class="image-size" style="border: none;" src="images/logos/beamlogo.PNG" alt="">
             </div>
-            <div class="col-md-6">
-                <h2 class="wowload fadeInUp" style="padding: 10px;">About</h2>
+            <div class="col-md-2 text-center">
+                <figure>
+                    <img class="founder-size service-picture" src="images/logos/BuildersSteelFounder.jpg">
+                    <figcaption style="color:#fff; text-align: center; padding-top: 5px;">Founder, Karl Schmidt</figcaption>
+                </figure>
+                <h2 class="wowload fadeInUp" style="padding: 10px;"></h2>
             </div>
         </div>
         <div class="row">
@@ -173,6 +185,12 @@
 
         <div class="services">
             <div class="text-center">
+                <div class="row">
+                    <div class="col-md-3" style="padding-bottom: 50px;">
+                        <image class="wowload fadeInUp" src="images/logos/aisc_logo.png">
+                            <br>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-md-3">
                         <image class="wowload fadeInUp" src="images/logos/awsCertTransparent.png">
@@ -238,17 +256,23 @@
             </div>
 
             <div class="col-md-4">
-                <img class="image-size service-picture" style="padding-top: 60px" src="images/services/FabricationPicture2.jpg" />
+                <img class="image-size service-picture" style="margin-top: 60px" src="images/services/FabricationPicture2.jpg" />
             </div>
         </div>
 
         <div class="row text-center">
             <div class="col-md-offset-2 col-md-4">
-                <img class="image-size service-picture" src="images/services/FabricationPicture3.jpg" />
+                <img class="image-size service-picture" style="margin-top: 10px;" src="images/services/FabricationPicture3.jpg" />
             </div>
 
             <div class="col-md-4">
-                <img class="image-size service-picture" style="padding-top: 110px;" src="images/services/FabricationPicture4.jpg" />
+                <img class="image-size service-picture" style="margin-top: 70px;" src="images/services/FabricationPicture4.jpg" />
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-md-offset-3 col-md-6">
+                <img class="collage-size service-picture" style="margin-top: 70px;" src="images/services/FabricationPicture5.jpg" />
             </div>
         </div>
 
@@ -274,17 +298,17 @@
             </div>
 
             <div class="col-md-4">
-                <img class="image-size service-picture" src="images/services/ErectionPicture2.jpg" />
+                <img class="image-size service-picture mobile-margin" src="images/services/ErectionPicture2.jpg" />
             </div>
         </div>
 
         <div class="row text-center">
             <div class="col-md-offset-2 col-md-4">
-                <img class="image-size service-picture" src="images/services/ErectionPicture3.jpg" />
+                <img class="image-size service-picture" style="margin-top: 35px;" src="images/services/ErectionPicture3.jpg" />
             </div>
 
             <div class="col-md-4">
-                <img class="image-size service-picture" src="images/services/ErectionPicture4.jpg" />
+                <img class="image-size service-picture" style="margin-top: 35px;" src="images/services/ErectionPicture4.jpg" />
             </div>
         </div>
     </div>
@@ -310,7 +334,7 @@
         <figure class="effect-oscar  wowload fadeInUp">
             <img src="images\projects\GoppertLearningCommons2-JEDunn.jpg" alt="img01" />
             <figcaption>
-                <h2>Goppert Learning Commons</h2>
+                <h2>Goppert Learning Common</h2>
                 <p>Contractor: JE Dunn
                     <br>
                     <a href="images\projects\GoppertLearningCommons2-JEDunn.jpg" title="1" data-gallery>View more</a>
@@ -350,7 +374,8 @@
         <figure class="effect-oscar  wowload fadeInUp">
             <img src="images/projects/ThePrioryofOurLadyofEphesus1-StraubConstruction.jpg" alt="img01" />
             <figcaption>
-                <h2>Lady of Ephesus Priory</h2>
+                <h2>Priory
+                    <br> Church</h2>
                 <p>Contractor: Straub Construction
                     <br>
                     <a href="images/projects/ThePrioryofOurLadyofEphesus1-StraubConstruction.jpg" title="1" data-gallery>View more</a>
@@ -478,15 +503,15 @@
             <div class="container">
                 <div class="row text-center  wowload fadeInDownBig">
                     <div class="col-sm-4 col-xs-4">
-                        <i class="fa fa-globe  fa-4x"></i>
+                        <i class="fa fa-globe fa-4x" style="color: white"></i>
                         <h4>Local</h4>
                     </div>
-                    <div class="col-sm-4 col-xs-4">
-                        <i class="fa fa-bar-chart  fa-4x"></i>
+                    <div class="col-sm-4 col-xs-4" >
+                        <i class="fa fa-bar-chart fa-4x" style="color: white"></i>
                         <h4>Professional</h4>
                     </div>
                     <div class="col-sm-4 col-xs-4">
-                        <i class="fa fa-money  fa-4x"></i>
+                        <i class="fa fa-money fa-4x" style="color: white"></i>
                         <h4>Affordable</h4>
                     </div>
                 </div>
