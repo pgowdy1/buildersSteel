@@ -1,9 +1,17 @@
 
 body {		
 	font: 300 15px/15px Roboto,Arial,Helvetica;
-	background: url(../images/bg.jpg) right no-repeat fixed #fff;
+	background: rgb(109, 109, 109);
 	 -webkit-font-smoothing: antialiased;
 }
+
+/* html { 
+	background: url(../images/bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  } */
 
 a{color:#00a9c6; text-decoration:none;}
 a:hover{color:#666;}
@@ -150,9 +158,7 @@ p {
 {
 	body {		
 	font: 300 15px/15px Roboto,Arial,Helvetica;
-	background: url(../images/bg.jpg) right no-repeat fixed #fff;
-	background-size: 100%;
-	 -webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
 	}
 }
 
@@ -187,7 +193,8 @@ p {
 @media (max-width: 800px) {
 	body
 	{
-		background: url(../images/bg.jpg) right no-repeat #fff;
+		background: none;
+		background-color: #111111;
 		font:300 12px/12px Roboto,Arial,Helvetica;
 	}
 	.navbar-nav > li > a {line-height: 1em;}	
