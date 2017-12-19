@@ -100,28 +100,34 @@
         <div id="myCarousel" class="carousel slide banner-slider animated bounceInDown" data-ride="carousel">
             <div class="carousel-inner">
                 <!-- Item 1 -->
-                <div class="item active">
+                <div class="item carousel-centering active">
                     <img src="images/carousel/HistoricalPicture1.jpg" alt="banner">
                 </div>
                 <!-- #Item 1 -->
 
                 <!-- Item 2 -->
-                <div class="item">
+                <div class="item carousel-centering">
                     <img src="images/carousel/HistoricalPicture2.jpg" alt="banner">
                 </div>
                 <!-- #Item 2 -->
 
                 <!-- Item 3 -->
-                <div class="item">
+                <div class="item carousel-centering">
                     <img src="images/carousel/HistoricalPicture3.jpg" alt="banner">
                 </div>
                 <!-- #Item 3 -->
 
                 <!-- Item 4 -->
-                <div class="item">
+                <div class="item carousel-centering">
                     <img src="images/carousel/HistoricalPicture4.jpg" alt="banner">
                 </div>
                 <!-- #Item 4 -->
+
+                <!-- Item 5 -->
+                <div class="item carousel-centering">
+                    <img src="images/carousel/HistoricalPicture5.jpg" alt="banner">
+                </div>
+                <!-- #Item 5 -->
             </div>
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                 <span class="glyphicon-chevron-left">
@@ -140,21 +146,21 @@
     <!-- Thin Divison Line -->
 
     <!-- About Starts -->
-    <div id="about" class="container spacer" style="background: #111111; -moz-border-radius: 40px; border-radius: 40px; border: solid 2px white">
+    <div id="about" class="container spacer box-color">
         <div class="row">
-            <div class="col-md-6 text-center">
-                <img class="image-size" style="border: none;" src="images/logos/beamlogo.PNG" alt="">
+            <div class="col-lg-6 text-center">
+                <img id="beam-logo" class="beamlogo-size" style="border: none; margin-left:15px" src="images/logos/beamlogo.PNG" alt="">
             </div>
-            <div class="col-md-6 text-center">
+            <div class="col-lg-6 text-center">
                 <figure>
                     <img class="founder-size service-picture" src="images/logos/BuildersSteelFounder.jpg">
-                    <figcaption style="color:#fff; text-align: center; padding-top: 5px;">Founder, Karl Schmidt</figcaption>
+                    <figcaption id="founder-caption">Founder, Karl Schmidt</figcaption>
                 </figure>
                 <h2 class="wowload fadeInUp" style="padding: 10px;"></h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-5 col-md-offset-1 wowload fadeInLeft">
+        <div id="weirdMobileMargin" class="row">
+            <div class="col-lg-5 col-lg-offset-1 wowload fadeInLeft">
                 <h3 style="padding: 10px;">Introduction</h3>
                 <p style="padding: 10px;">Builders Steel Company has been fabricating and erecting structural steel since 1927. Our experience and
                     knowledge has given us the capacity to handle all facets of structural steel construction. We are well
@@ -168,11 +174,11 @@
                     Certifications.
                 </p>
             </div>
-            <div class="col-md-5 wowload fadeInRight">
+            <div class="col-lg-5 wowload fadeInRight">
                 <h3 style="padding: 10px;">Mission Statement</h3>
                 <h4 class="text-center">
                     <b>
-                        <i style="color: #fff;text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000; padding: 10px;">
+                        <i id="sub-header">
                             "To be the Structural Steel Contractor of Choice"
                         </i>
                     </b>
@@ -180,34 +186,35 @@
                 <p style="padding: 10px;">Our mission is to provide a quality product, competitively priced and delivered on schedule with courtesy
                     and professionalism.</p>
             </div>
-            <div class="col-md-1"></div>
+            <div class="col-lg-1"></div>
         </div>
 
         <div class="services">
             <div class="text-center">
                 <div class="row">
-                    <div class="col-md-3" style="padding-bottom: 50px;">
-                        <image class="wowload fadeInUp" src="images/logos/aisc_logo.png">
+                    <div class="col-lg-offset-2 col-lg-4">
+                        <image class="wowload fadeInUp" src="images/logos/logo-certification-aisc.png">
                             <br>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
+                              
+                    <div class="col-lg-4">
                         <image class="wowload fadeInUp" src="images/logos/awsCertTransparent.png">
                             <br>
                             <br>
                     </div>
-                    <div class="col-md-4">
-                        <image class="wowload image-size fadeInUp" src="images/logos/IronworkersLocal10Logo.jpg">
-                            <br>
-                            <br>
-                    </div>
-                    <div class="col-md-2">
+                </div>    
+                <div class="row">
+                    <div class="col-lg-offset-1 col-lg-3">
                         <image class="wowload fadeInUp" src="images/logos/ShopmenLocal518Logo.png">
                             <br>
                             <br>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-lg-4">
+                        <image id="ironworkers-logo" class="wowload image-size fadeInUp" src="images/logos/IronworkersLocal10Logo.jpg">
+                            <br>
+                            <br>
+                    </div>
+                    <div class="col-lg-3">
                         <image class="wowload fadeInUp" src="images/logos/TeamstersLocal541Logo.png">
                             <br>
                             <br>
@@ -227,14 +234,14 @@
 
     <!-- services -->
 
-    <div id="services" class="container spacer" style="background: #111111; -moz-border-radius: 40px; border-radius: 40px; border: solid 2px white">
+    <div id="services" class="container spacer box-color" >
         <div class="row text-center">
-            <div class="col-md-12">
+            <div class="col-lg-12">
                 <h2 class="wowload fadeInUp">Services</h2>
             </div>
         </div>
         <div class="row text-center">
-            <div class="col-md-offset-2 col-md-8 text-center">
+            <div class="col-lg-offset-2 col-lg-8 text-center">
                 <h3 class="wowload fadeInUp">Fabrication</h3>
                 <p class="wowload fadeInUp" style="padding: 10px;">
                     Our fabrication facility, located in North Kansas City, MO includes a 70,000 sq. ft. structural shop and a 30,000 sq. ft.
@@ -251,33 +258,33 @@
         </div>
 
         <div class="row text-center">
-            <div class="col-md-offset-2 col-md-4">
+            <div class="col-lg-offset-2 col-lg-4">
                 <img class="image-size service-picture" src="images/services/FabricationPicture1.jpg" />
             </div>
 
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <img class="image-size service-picture" style="margin-top: 60px" src="images/services/FabricationPicture2.jpg" />
             </div>
         </div>
 
         <div class="row text-center">
-            <div class="col-md-offset-2 col-md-4">
+            <div class="col-lg-offset-2 col-lg-4">
                 <img class="image-size service-picture" style="margin-top: 10px;" src="images/services/FabricationPicture3.jpg" />
             </div>
 
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <img class="image-size service-picture" style="margin-top: 70px;" src="images/services/FabricationPicture4.jpg" />
             </div>
         </div>
 
         <div class="row text-center">
-            <div class="col-md-offset-3 col-md-6">
+            <div class="col-lg-offset-3 col-lg-6">
                 <img class="collage-size service-picture" style="margin-top: 70px;" src="images/services/FabricationPicture5.jpg" />
             </div>
         </div>
 
         <div class="row text-center">
-            <div class="col-md-offset-2 col-md-8 text-center">
+            <div class="col-lg-offset-2 col-lg-8 text-center">
                 <h3 class="wowload fadeInUp">Erection</h3>
                 <p class="wowload fadeInUp" style="padding: 10px;">
                     Builders Steel Company utilizes its own erection crews which distinguishes us as a “Full Service Steel Subcontractor”. Our
@@ -293,21 +300,21 @@
         </div>
 
         <div class="row text-center">
-            <div class="col-md-offset-2 col-md-4">
+            <div class="col-lg-offset-2 col-lg-4">
                 <img class="image-size service-picture" src="images/services/ErectionPicture1.jpg" />
             </div>
 
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <img class="image-size service-picture mobile-margin" src="images/services/ErectionPicture2.jpg" />
             </div>
         </div>
 
         <div class="row text-center">
-            <div class="col-md-offset-2 col-md-4">
+            <div class="col-lg-offset-2 col-lg-4">
                 <img class="image-size service-picture" style="margin-top: 35px;" src="images/services/ErectionPicture3.jpg" />
             </div>
 
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <img class="image-size service-picture" style="margin-top: 35px;margin-bottom: 20px;" src="images/services/ErectionPicture4.jpg" />
             </div>
         </div>
@@ -337,7 +344,7 @@
                 <h2>Goppert Learning Common</h2>
                 <p>Contractor: JE Dunn
                     <br>
-                    <a href="images\projects\GoppertLearningCommons2-JEDunn.jpg" title="1" data-gallery>View more</a>
+                    <a href="images\projects\GoppertLearningCommons2-JEDunn.jpg" title="1" data-gallery>Expand</a>
                 </p>
             </figcaption>
         </figure>
@@ -347,7 +354,7 @@
                 <h2>Lenexa Baptist Church</h2>
                 <p>Contractor: Pearce Construction
                     <br>
-                    <a href="images/projects/LenexaBaptistChurch-PearceConstruction.jpg" title="1" data-gallery>View more</a>
+                    <a href="images/projects/LenexaBaptistChurch-PearceConstruction.jpg" title="1" data-gallery>Expand</a>
                 </p>
             </figcaption>
         </figure>
@@ -357,7 +364,7 @@
                 <h2>Plaza Parking Garage</h2>
                 <p>Contractor: Kelly Construction
                     <br>
-                    <a href="images/projects/Plaza211ParkingGarage1-KellyConstruction.jpg" title="1" data-gallery>View more</a>
+                    <a href="images/projects/Plaza211ParkingGarage1-KellyConstruction.jpg" title="1" data-gallery>Expand</a>
                 </p>
             </figcaption>
         </figure>
@@ -367,7 +374,7 @@
                 <h2>Sight & Sound Theater</h2>
                 <p>Contractor: CDI Contractors
                     <br>
-                    <a href="images/projects/Sight_SoundTheater1-CDIContractors.jpg" title="1" data-gallery>View more</a>
+                    <a href="images/projects/Sight_SoundTheater1-CDIContractors.jpg" title="1" data-gallery>Expand</a>
                 </p>
             </figcaption>
         </figure>
@@ -378,7 +385,7 @@
                     <br> Church</h2>
                 <p>Contractor: Straub Construction
                     <br>
-                    <a href="images/projects/ThePrioryofOurLadyofEphesus1-StraubConstruction.jpg" title="1" data-gallery>View more</a>
+                    <a href="images/projects/ThePrioryofOurLadyofEphesus1-StraubConstruction.jpg" title="1" data-gallery>Expand</a>
                 </p>
             </figcaption>
         </figure>
@@ -389,7 +396,7 @@
                 <h2>Thomas Corrigan Building</h2>
                 <p>Contractor: Straub Construction
                     <br>
-                    <a href="images/projects/ThomasCorriganBuildingRenovation2-StraubConstruction.jpg" title="1" data-gallery>View more</a>
+                    <a href="images/projects/ThomasCorriganBuildingRenovation2-StraubConstruction.jpg" title="1" data-gallery>Expand</a>
                 </p>
             </figcaption>
         </figure>
@@ -399,7 +406,7 @@
                 <h2>1801 Oak Street Building</h2>
                 <p>Abbott Properties
                     <br>
-                    <a href="images/projects/1801Oak-AbbottProperties.jpg" title="1" data-gallery>View more</a>
+                    <a href="images/projects/1801Oak-AbbottProperties.jpg" title="1" data-gallery>Expand</a>
                 </p>
             </figcaption>
         </figure>
@@ -409,7 +416,7 @@
                 <h2>Riverfront Apartments</h2>
                 <p>Contractor: MW Builders
                     <br>
-                    <a href="images/projects/Union-BerkleyRiverfrontParkKansas CityRiverfrontApartments-MWBuilders.jpg" title="1" data-gallery>View more</a>
+                    <a href="images/projects/Union-BerkleyRiverfrontParkKansas CityRiverfrontApartments-MWBuilders.jpg" title="1" data-gallery>Expand</a>
                 </p>
             </figcaption>
         </figure>
@@ -419,7 +426,7 @@
                 <h2>Medical Office Building</h2>
                 <p>Contractor: DEV Inc.
                     <br>
-                    <a href="images/projects/EastLegendsMedicalOfficeBuilding-DEVInc.jpg" title="1" data-gallery>View more</a>
+                    <a href="images/projects/EastLegendsMedicalOfficeBuilding-DEVInc.jpg" title="1" data-gallery>Expand</a>
                 </p>
             </figcaption>
         </figure>
@@ -432,7 +439,7 @@
 
     <!--Contact Starts-->
 
-    <div id="contact" class="container spacer" style="background: #111111; -moz-border-radius: 40px; border-radius: 40px; border: solid 2px white">
+    <div id="contact" class="container spacer box-color" >
         <div class="container contactform center">
             <!--Local Project-->
             <h2 class="text-center wowload fadeInUp">Contact Information</h2>
@@ -474,7 +481,7 @@
     <hr size="6" width="80%">
 
     <!--Career Opportunities Starts-->
-    <div id="application" class="container spacer" style="background: #111111; -moz-border-radius: 40px; border-radius: 40px; border: solid 2px white">
+    <div id="application" class="container spacer box-color">
         <div class="row text-center">
             <div class="col-sm-12">
                 <h2 class="wowload fadeInUp">Career Opportunities</h2>
@@ -536,8 +543,8 @@
         <div class="slides"></div>
         <!-- Controls for the borderless lightbox -->
         <h3 class="title">Title</h3>
-        <a class="prev">‹</a>
-        <a class="next">›</a>
+        <a class="prev" style="display: none;">‹</a>
+        <a class="next" style="display: none;">›</a>
         <a class="close">×</a>
         <!-- The modal dialog, which will be used to wrap the lightbox content -->
     </div>

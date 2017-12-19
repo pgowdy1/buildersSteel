@@ -1,17 +1,22 @@
 
 body {		
 	font: 300 15px/15px Roboto,Arial,Helvetica;
-	background: rgb(109, 109, 109);
+	background: rgb(0, 0, 0);
 	 -webkit-font-smoothing: antialiased;
 }
 
-/* html { 
-	background: url(../images/bg.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-  } */
+.carousel-inner img 
+{
+	margin: auto;
+}
+
+.box-color
+{
+	background: #fdfdfd;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+	border: solid 2px white
+}
 
 a{color:#00a9c6; text-decoration:none;}
 a:hover{color:#666;}
@@ -25,21 +30,26 @@ outline: none !important;
 }
 
 h1,h2,h3,h4{margin: 0;line-height: 1em;}
-h1{font:700 5em Roboto,Arial,Helvetica;margin:0.25em 0;text-transform: uppercase; color: #fff;
-	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;}
-h2{font:300 2.5em Roboto,Arial,Helvetica;margin-bottom: 1.5em; color: #fff;
-	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;}
-h3{font:300 2em Roboto,Arial,Helvetica;margin:2em 0 1em 0; color: #fff;
-	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;}
-h4{font:300 1.5em Roboto,Arial,Helvetica;margin-bottom: 1em; color: #fff;
-	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;}
+h1{font:700 5em Roboto,Arial,Helvetica;margin:0.25em 0;text-transform: uppercase; color: black;
+	font-weight: bold;}
+h2{font:300 2.5em Roboto,Arial,Helvetica;margin-bottom: 1.5em; color: black;
+	font-weight: bold;}
+h3{font:300 2.5em Roboto,Arial,Helvetica;margin:2em 0 1em 0; color: black;
+	font-weight: bold;}
+h4{font:300 1.5em Roboto,Arial,Helvetica;margin-bottom: 1em; color: black;
+	font-weight: bold;}
 h4 i{margin-right: 0.5em;}
 
+h4 b i
+{
+	color: black; padding: 10px;
+}
+
 p {
-	font-size:1em;
+	font-size:1.5em;
 	line-height: 1.7em; 
 	margin-bottom: 1.7em;
-	color: #FFF;
+	color: black;
 }
 
 .spacer{padding: 6em 0;}
@@ -73,9 +83,21 @@ p {
 
 .founder-size
 {
-	height:300px; 
+	height:450px; 
 	width: auto;
 	border: solid 2px white	
+}
+
+#founder-caption 
+{
+	color:black; 
+	text-align: center; 
+	padding-top: 5px;
+}
+
+#ironworkers-logo
+{
+	margin-top: 90px;
 }
 
 /*testimonials*/
@@ -95,6 +117,18 @@ p {
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 }
+#services h3
+{
+	font-size: 2em;
+}
+
+.beamlogo-size
+{
+	width: 700px;
+	height: auto;
+	margin-top: 75px;
+	padding-left: 70px;
+} 
 
 .image-size
 {
@@ -114,7 +148,12 @@ p {
 #works{padding-top:6em;}
 #works figcaption a{border:1px solid #fff;margin-top: 1em;display: inline-block;color: #fff;padding: 0 2em;}
 #works figcaption a:hover{text-decoration: none;padding: 0 3em;}
+#works h2 {color: white;}
 
+figcaption h2 
+{
+	color: white;
+}
 
 /*team*/
 .team figure{width: 60%;}
@@ -139,7 +178,7 @@ p {
 	border-style: solid;
 	border-width: medium;
 	border-radius: 25px;
-	border-color: white;
+	border-color: rgb(0, 0, 0);
 	margin: 10px;
 }
 
@@ -191,11 +230,72 @@ p {
 
 
 @media (max-width: 800px) {
+
+	.carousel-centering
+	{
+		margin: auto;
+	}
+
+	.founder-size
+	{
+		height:300px; 
+		width: auto;
+		border: solid 2px white	
+	}
+
+	.contactBox
+	{
+		border-color: white;
+	}
+
+	#weirdMobileMargin
+	{
+		margin-top: -60px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
 	body
 	{
 		background: none;
 		background-color: #111111;
 		font:300 12px/12px Roboto,Arial,Helvetica;
+	}
+
+	p 
+	{
+		font-size:1.5em;
+		line-height: 1.7em; 
+		margin-bottom: 1.7em;
+		color: white;
+	}
+
+	h2
+	{
+		color: white;
+	}
+
+	h3
+	{
+		color: white;
+	}
+
+	#sub-header
+	{
+		color: white;
+	}
+
+	h4
+	{
+		color: white;
+	}
+	
+	.box-color
+	{
+		background: #111111; 
+		-moz-border-radius: 40px; 
+		border-radius: 40px; 
+		border: solid 2px white
 	}
 	.navbar-nav > li > a {line-height: 1em;}	
 	.navbar-brand{padding: 7px;}
@@ -224,9 +324,28 @@ p {
 }
 
 @media (max-width: 415px) {
+
 	.mobile-margin
 	{
 		margin-top: 35px;
+	}
+
+	#founder-caption 
+	{
+		color: white;
+	}
+
+	#ironworkers-logo
+	{
+		margin-top: 0px;
+	}
+
+	.beamlogo-size
+	{
+		width: 300px;
+		height: auto;
+		padding: 10px;
+		margin-top: 0px;
 	}
 
 	.image-size
