@@ -54,7 +54,7 @@ $(function () {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "contact_me.php",
+                url: "/./contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
@@ -62,7 +62,7 @@ $(function () {
                     company: company,
                     message: message
                 },
-                cache: false,
+                cache: true,
                 success: function () {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");

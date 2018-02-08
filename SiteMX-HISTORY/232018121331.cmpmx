@@ -1,0 +1,24 @@
+##COMPANYNAME:Builders-Steel
+##NOTIFY:chris@kelcontech.com
+##NOTIFY:pgowdy1@gmail.com
+##FROM:noreply@builders-steel.com
+##SMTPSERVER:mail.kelcontech.com
+##SMTPPORT:26
+##SMTPUSERNAME:builderssender
+##SMTPPASSWORD:S3nd1NgTH3M@ilN0w
+##SUBJECT: Builders-Steel Website Visitor Comments
+
+Email from Builders-Steel.com website visitor
+
+Name: Chris Miller
+Email: chris@kelcontech.com
+Company: KelCon Technologies, Inc.
+
+Chris Miller writes:
+
+Alright.. I've coded the Thank You page.. duplicated the index.asp page and eliminated all the other code leaving just the page structure.  From that I was able to add the "Thank You" message and add the javascript to redirect after 5 seconds.  Should be done.  
+
+Submitted: 2/3/2018 12:13:31 PM
+Remote IP: 98.100.110.182
+Remote Host: 98.100.110.182
+

@@ -1,0 +1,20 @@
+<html>
+
+  <head>
+    <script language="javascript" type="text/javascript">
+         <!--
+         window.setTimeout('window.location="index.asp"; ',5000);
+         // -->
+    </script>
+
+  </head>
+  
+  <body>
+<BR><BR><BR><center>
+Your message is on the way..<BR><BR>
+Redirect back to site in 5 seconds<BR>
+or click <a href="index.asp">here</a>.<BR><BR>
+</center>
+  </body>
+
+</html>
